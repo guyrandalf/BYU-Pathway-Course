@@ -1,0 +1,10 @@
+age = int(input('How old are you? '))
+print(f'On your next birthday, you will be {age + 1}')
+print()
+no_of_eggs = int(input('How many egg cartons do you have? '))
+print(f'You have {no_of_eggs * 12} eggs')
+print()
+no_of_cookies = int(input('How many cookies do you have? '))
+no_of_peoples = int(input('How many peaople are there? '))
+total_cookies_per_person = no_of_cookies / no_of_peoples
+print(f'Each person may have {total_cookies_per_person} cookies')
